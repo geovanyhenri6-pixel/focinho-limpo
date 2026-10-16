@@ -1,0 +1,1 @@
+Galeria e Contato viram seções da home
