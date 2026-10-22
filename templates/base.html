@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}base{% endblock %}</title>
+    <header>cabecalho</header>
+</head>
+<body>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>rodape</footer>
+</body>
+</html>
