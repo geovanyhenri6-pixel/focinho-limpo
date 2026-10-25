@@ -5,3 +5,7 @@ site = Blueprint("site", __name__)
 @site.route("/")
 def home():
     return render_template("site/home.html")
+
+@site.route("/servicos")
+def servicos():
+    return render_template("site/servicos.html")

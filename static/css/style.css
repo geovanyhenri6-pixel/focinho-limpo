@@ -1,0 +1,35 @@
+:root {
+    --cor-creme: #FFF7EC;
+    --cor-chocolate: #4A3426;
+    --cor-terracota: #B8502A;
+    --cor-coral: #E8845C;
+    --cor-mel: #F2B84B;
+    --cor-verde-salvia-escuro: #3F6B4F;
+    --cor-verde-salvia: #7FA487;
+    --cor-areia: #EADBC8;
+    --fonte-titulo: 'Fredoka', sans-serif;
+    --fonte-texto: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: var(--cor-creme);
+    color: var(--cor-chocolate);
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+h1 {
+ font-family: var(--fonte-titulo);
+ font-size: 32px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 26px;
+}
+
+h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+}
