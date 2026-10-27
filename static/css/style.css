@@ -50,3 +50,9 @@ nav {
     gap: 8px;
     flex-wrap: wrap;
 }
+
+:focus-visible {
+    outline: 3px solid var(--cor-terracota);
+    outline-offset: 2px;
+    border-radius: 12px;
+}
