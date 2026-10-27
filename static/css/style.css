@@ -35,15 +35,18 @@ h3 {
 }
 
 a {
+    display: flex;
     color: var(--cor-terracota);
     text-decoration: underline;
 }
 
 nav a {
-    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
 }
 
 nav {
+    display: flex;
     gap: 8px;
     flex-wrap: wrap;
 }
