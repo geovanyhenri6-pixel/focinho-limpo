@@ -33,3 +33,17 @@ h3 {
     font-family: var(--fonte-titulo);
     font-size: 20px;
 }
+
+a {
+    color: var(--cor-terracota);
+    text-decoration: underline;
+}
+
+nav a {
+    display: inline-flex;
+}
+
+nav {
+    gap: 8px;
+    flex-wrap: wrap;
+}

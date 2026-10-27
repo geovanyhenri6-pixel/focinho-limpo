@@ -16,8 +16,10 @@
 
 <body>
     <header>
-        <a href="{{ url_for('site.home') }}"> Início</a>
-        <a href="{{ url_for('site.servicos') }}">Serviços</a>
+        <nav aria-label="Navegação principal">
+            <a href="{{ url_for('site.home') }}"> Início</a>
+            <a href="{{ url_for('site.servicos') }}">Serviços</a>
+        </nav>
     </header>
 
     <main>
