@@ -9,14 +9,27 @@
     --cor-areia: #EADBC8;
     --fonte-titulo: 'Fredoka', sans-serif;
     --fonte-texto: 'Nunito', sans-serif;
+    --padding-padrao: 20px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
     background-color: var(--cor-creme);
     color: var(--cor-chocolate);
     font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.6;
+}
+
+main {
+    padding: var(--padding-padrao);
+}
+
+header {
+    padding: var(--padding-padrao);
 }
 
 h1 {
@@ -35,12 +48,12 @@ h3 {
 }
 
 a {
-    display: flex;
     color: var(--cor-terracota);
     text-decoration: underline;
 }
 
 nav a {
+    display: flex;
     min-height: 44px;
     align-items: center;
 }
@@ -55,4 +68,26 @@ nav {
     outline: 3px solid var(--cor-terracota);
     outline-offset: 2px;
     border-radius: 12px;
+}
+
+footer {
+    padding: var(--padding-padrao);
+    color: var(--cor-creme);
+    background-color: var(--cor-chocolate);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: var(--cor-areia);
+}
+
+footer h2 {
+    font-size: 22px;
+}
+
+.content {
+    flex: 1 0 auto;
 }

@@ -16,17 +16,27 @@
 
 <body>
     <header>
-        <nav aria-label="Navegação principal">
+        <nav aria-label="Principal">
             <a href="{{ url_for('site.home') }}"> Início</a>
             <a href="{{ url_for('site.servicos') }}">Serviços</a>
         </nav>
     </header>
 
-    <main>
+    <main class="content">
         {% block content %}
         {% endblock %}
     </main>
 
-    <footer>rodape</footer>
+    <footer class="footer">
+            <p>Focinho Limpo</p>
+            <h2>Horários:</h2>
+            <ul>
+                <li>Segunda a sexta: 8h às 18h (horário de almoço das 12h às 13h)</li>
+                <li>Sábado: 8h às 14h</li>
+            </ul>
+            <address>
+                <p>Rua das Acácias, 128, Jardim Primavera.</p>
+            <a href="#">Privacidade</a>
+    </footer>
 </body>
 </html>
