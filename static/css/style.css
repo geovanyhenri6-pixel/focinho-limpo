@@ -9,7 +9,12 @@
     --cor-areia: #EADBC8;
     --fonte-titulo: 'Fredoka', sans-serif;
     --fonte-texto: 'Nunito', sans-serif;
-    --padding-padrao: 20px;
+    --conteiner-central: 1100px;
+    --destaque-lista: 16px;
+}
+
+* {    
+    box-sizing: border-box;
 }
 
 body {
@@ -24,17 +29,13 @@ body {
     line-height: 1.6;
 }
 
-main {
-    padding: var(--padding-padrao);
-}
-
-header {
-    padding: var(--padding-padrao);
+main {    
+    flex: 1 0 auto;
 }
 
 h1 {
- font-family: var(--fonte-titulo);
- font-size: 32px;
+    font-family: var(--fonte-titulo);    
+    font-size: 32px;
 }
 
 h2 {
@@ -76,8 +77,17 @@ footer {
     background-color: var(--cor-chocolate);
 }
 
+.conteiner-central {
+    max-width: var(--conteiner-central);
+    margin: 0 auto;
+    width: 100%;
+    padding-inline: 20px;
+}
+
 footer ul {
     list-style: none;
+    padding-left: var(--destaque-lista);
+
 }
 
 footer a {
@@ -86,8 +96,4 @@ footer a {
 
 footer h2 {
     font-size: 22px;
-}
-
-.content {
-    flex: 1 0 auto;
 }
